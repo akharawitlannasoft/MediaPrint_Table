@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sintering Process Check Sheet</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-between bd-highlight mb-3">
+            <div class="p-2 bd-highlight border box_test">Test/Remark</div>
+            <div class="p-2 bd-highlight">
+                <h4>Sintering Process Check Sheet</h4>
+            </div>
+            <!-- //////////////////////////////// -->
+            <!-- Barcode -->
+            <!-- //////////////////////////////// -->
+            <div class="p-2 bd-highlight border box_test text-center barcode">
+                <svg id="barcode"
+                jsbarcode-format="CODE128"
+                jsbarcode-value="7777777"
+                jsbarcode-textmargin="0"
+                jsbarcode-height="25"
+                jsbarcode-fontSize="12"
+                jsbarcode-width="2"
+                jsbarcode-margin="0"></svg>
+            </div>
+        </div>
+        <!-- //////////////////////////////// -->
+        <!-- Table -->
+        <!-- //////////////////////////////// -->
+        <table class="table table-modif table-modif-nm">
+            <tr class="text-left fnt-up">
+                <td colspan="4">Lost Number: 70401-ECS17001C1:C2</td>
+                <td colspan="2">G/S Lot: ECS17001</td>
+                <td colspan="2">TN/W: ECS17001</td>
+                <td colspan="3">ProductType: ChipArray</td>
+            </tr>
+            <tr class="text-left fnt-up">
+                <td colspan="4">Product Name: 70401-ECS17001C1:C2</td>
+                <td colspan="4">Lock/Test: ECS17001</td>
+                <td colspan="3">Remark: ChipArray</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Powdering -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Powdering</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>End Time</td>
+                <td>Work ID</td>
+                <td>ParafilmTemp</td>
+                <td>PowderSize</td>
+                <td>PowderType</td>
+                <td>Remark</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Defect Detail -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <td colspan="11" class="txt-bg text-left"><strong>Defect Detail</strong></td>
+            </tr>
+            <tr>
+                <td>Broken</td>
+                <td>Clipping</td>
+                <td>StickRoller</td>
+                <td>Send QC</td>
+                <td>Parafin NG</td>
+                <td>Dirty</td>
+                <td>Other</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="7">
+                    <strong>Machine Event</strong>
+                    <div class="text-center">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Electric Down</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Belt Damage</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">ลมดูม</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">แบริ่ง</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Roller</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Stuffing and Oven (Thin Product) -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Stuffing and Oven (Thin Product)</th>
+            </tr>
+            <tr>
+                <td rowspan="2" class="txt-bg">Stuffing Data</td>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>
+                    <span class="end-time">End Time</span>
+                </td>
+                <td>Work ID</td>
+                <td>Setter Type</td>
+                <td colspan="2">Remark</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="txt-bg">Over Data</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Loading Time</td>
+                <td>Work ID</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="txt-bg">Tearing off</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>Worker ID</td>
+                <td>Start Time</td>
+                <td>End Time</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Defect Detail -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <td colspan="11" class="txt-bg text-left"><strong>Defect Detail</strong></td>
+            </tr>
+            <tr>
+                <td>Broken</td>
+                <td>Clipping</td>
+                <td>Stick</td>
+                <td>Crack</td>
+                <td>Scratch</td>
+                <td>Ototus</td>
+                <td>Dragon</td>
+                <td>G/S Powder</td>
+                <td>Sin Powder</td>
+                <td>Other</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="7">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Stuffing and Loading -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Stuffing and Loading</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>
+                    <span class="end-time">End Time</span>
+                </td>
+                <td>Work ID</td>
+                <td>Setter Type</td>
+                <td>SupportA Size</td>
+                <td>SupportB Size</td>
+                <td>Spacer Sheet</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="txt-bg">Loading Data</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>Furnace No</td>
+                <td>FurnaceTemp</td>
+                <td>LoadingTime</td>
+                <td>PlateFromNo</td>
+                <td>FromBoxQty</td>
+                <td>PlateToNo</td>
+                <td>ToBoxQty</td>
+                <td>Worker ID</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="5" colspan="2" class="txt-bg">Stuffing Detail</td>
+                <td rowspan="5">Set Qty</td>
+                <td rowspan="5" class="p-0">
+                    <table class="tb-sub">
+                        <tr>
+                            <td rowspan="5" class="position-r bg"><div class="vertical">Full Stage</div></td>
+                            <td class="fnt-small">Group NO</td>
+                        </tr>
+                        <tr>
+                            <td>No.1</td>
+                        </tr>
+                        <tr>
+                            <td>No.2</td>
+                        </tr>
+                        <tr>
+                            <td>No.3</td>
+                        </tr>
+                        <tr>
+                            <td>No.4</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>SheetQty/Pack</td>
+                <td>Pack Qty</td>
+                <td>StageQty</td>
+                <td rowspan="5" class="p-0">
+                    <table class="tb-sub">
+                        <tr>
+                            <td rowspan="5" class="position-r bg"><div class="vertical">Not Full Stage</div></td>
+                            <td class="fnt-small">Group NO</td>
+                        </tr>
+                        <tr>
+                            <td>No.1</td>
+                        </tr>
+                        <tr>
+                            <td>No.2</td>
+                        </tr>
+                        <tr>
+                            <td>No.3</td>
+                        </tr>
+                        <tr>
+                            <td>No.4</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>SheetQty/Pack</td>
+                <td>Pack Qty</td>
+                <td>StageQty</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Defect & Consumption -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <td colspan="6" class="txt-bg text-left"><strong>Defect</strong></td>
+                <td colspan="5" class="txt-bg text-left"><strong>Consumption</strong></td>
+            </tr>
+            <tr>
+                <td>Broken</td>
+                <td>Clipping</td>
+                <td>Stick Roller</td>
+                <td>Parafin NG</td>
+                <td>Dirty</td>
+                <td>Other</td>
+                <td colspan="3">Setter Powder Type:</td>
+                <td colspan="2">Setter Lot</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="3">&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="7">
+                    <strong>Machine Event</strong>
+                    <div class="text-left">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Electric Down</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Unloading -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Unloading</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>
+                    <span class="end-time">End Time</span>
+                </td>
+                <td>Work ID</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Defect -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <td colspan="8" class="txt-bg text-left"><strong>Defect</strong></td>
+            </tr>
+            <tr>
+                <td>Broken</td>
+                <td>Clipping</td>
+                <td>Stick Roller</td>
+                <td>Parafin NG</td>
+                <td>Dirty</td>
+                <td>Other</td>
+                <td>Dirty</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="7">
+                    <strong>Machine Event</strong>
+                    <div class="text-left">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Electric Down</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Heater Damage</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Fan Damage</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Tar Pipe Cleaning</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Sintering Tearing Off -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Sintering Tearing Off</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>
+                    <span class="end-time">End Time</span>
+                </td>
+                <td>Work ID</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Defect -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <td colspan="11" class="txt-bg text-left"><strong>Defect</strong></td>
+            </tr>
+            <tr>
+                <td>Broken</td>
+                <td>Clipping</td>
+                <td>Shift</td>
+                <td>Bending</td>
+                <td>Crack</td>
+                <td>Spot</td>
+                <td>Small</td>
+                <td>Other</td>
+                <td>QC Ptest</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/JsBarcode/dist/JsBarcode.all.min.js"></script>
+    <script>
+    // Barcode
+    JsBarcode("#barcode").init();
+    </script>
+</body>
+</html>

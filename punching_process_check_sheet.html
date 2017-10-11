@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feeding instruction</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-between bd-highlight mb-3">
+            <div class="p-2 bd-highlight border box_test">Test/Remark</div>
+            <div class="p-2 bd-highlight">
+                <h4>Punching Process Check Sheet</h4>
+            </div>
+            <!-- //////////////////////////////// -->
+            <!-- Barcode -->
+            <!-- //////////////////////////////// -->
+            <div class="p-2 bd-highlight border box_test text-center barcode">
+                <svg id="barcode"
+                jsbarcode-format="CODE128"
+                jsbarcode-value="7777777"
+                jsbarcode-textmargin="0"
+                jsbarcode-height="25"
+                jsbarcode-fontSize="12"
+                jsbarcode-width="2"
+                jsbarcode-margin="0"></svg>
+            </div>
+        </div>
+        <!-- //////////////////////////////// -->
+        <!-- Table -->
+        <!-- //////////////////////////////// -->
+        <table class="table table-modif table-modif-nm">
+            <tr class="text-left fnt-up">
+                <td colspan="4">Lost Number: 70401-ECS17001C1:C2</td>
+                <td colspan="2">G/S Lot: ECS17001</td>
+                <td colspan="2">TN/W: ECS17001</td>
+                <td colspan="3">ProductType: ChipArray</td>
+            </tr>
+            <tr class="text-left fnt-up">
+                <td colspan="4">Product Name: 70401-ECS17001C1:C2</td>
+                <td colspan="4">Lock/Test: ECS17001</td>
+                <td colspan="3">Remark: ChipArray</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Punching Actual Screen -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Punching Actual Screen</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>End Time</td>
+                <td>Work ID</td>
+                <td>ParafilmTemp</td>
+                <td>PowderSize</td>
+                <td>PowderType</td>
+                <td>Remark</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>Thickness Laser Data</strong></td>
+                <td colspan="9"><strong>Defect</strong></td>
+            </tr>
+            <tr>
+                <td>MachineNo</td>
+                <td>Work ID</td>
+                <td>Adjust Snap</td>
+                <td>Send QC</td>
+                <td>Snap OutSpec</td>
+                <td>Hole Slide</td>
+                <td>Power</td>
+                <td>Bubble</td>
+                <td>Harddrop</td>
+                <td>G/S Scratch</td>
+                <td>Die Scratch</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">Remark</td>
+                <td>Start Roll</td>
+                <td>End Roll</td>
+                <td>Die Clean</td>
+                <td>CV 3000</td>
+                <td>Other</td>
+                <td rowspan="2" colspan="4">Remark</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Weight</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="6">
+                    <strong>Machine Event</strong>
+                    <div class="text-center">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Electric Down</span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Die Repair</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Tsubushi -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Tsubushi</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>End Time</td>
+                <td>Work ID</td>
+                <td colspan="4" class="text-center">Remark</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>Defect</strong></td>
+                <td rowspan="3" colspan="9">
+                    <strong>Machine Event</strong> 
+                    <div class="text-left">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Electric Down</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Broken</td>
+                <td>Qther</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="7">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Process: Remove Dust -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <th colspan="11" class="fntUp">Process: Remove Dust</th>
+            </tr>
+            <tr>
+                <td>ProcessRound</td>
+                <td>PD Date</td>
+                <td>PD Shift</td>
+                <td>MachineNo</td>
+                <td>Start Time</td>
+                <td>End Time</td>
+                <td>Work ID</td>
+                <td colspan="4" class="text-center">Remark</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="4">&nbsp;</td>
+            </tr>
+            <!-- //////////////////////////////// -->
+            <!-- Defect -->
+            <!-- //////////////////////////////// -->
+            <tr>
+                <td colspan="11" class="txt-bg text-left"><strong>Defect</strong></td>
+            </tr>
+            <tr>
+                <td>Adjust Snap</td>
+                <td>Send Qc</td>
+                <td>Snap OutSpec</td>
+                <td>Hole Slide</td>
+                <td>Power</td>
+                <td>Bubble</td>
+                <td>Harddrop</td>
+                <td>G/S Scratch</td>
+                <td>Die Scratch</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="txt-bg">Total Qty</td>
+                <td class="txt-bg">Defect Qty</td>
+                <td class="txt-bg">Pass Qty</td>
+                <td class="txt-bg">Total Box</td>
+                <td rowspan="2" colspan="7">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <!-- Class .clr-w to make the width of the columns equal -->
+            <!-- This class is Color White, Opacity=0 -->
+            <tr>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+                <td class="clr-w border-0">QA Sampling</td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/JsBarcode/dist/JsBarcode.all.min.js"></script>
+    <script>
+    // Barcode
+    JsBarcode("#barcode").init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "MediaPrint_Table",
+  "homepage": "index.html",
+  "authors": [
+    "Akharawit Aryakom(Not) akharawit@lannasoftworks.com"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "JsBarcode": "jsbarcode#^3.8.0"
+  }
+}
