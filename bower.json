@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap": "v4.0.0-beta",
-    "JsBarcode": "jsbarcode#^3.8.0"
+    "JsBarcode": "jsbarcode#^3.8.0",
+    "qrious": "^4.0.2"
   }
 }

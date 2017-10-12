@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <!-- How to build -->
+    <!-- wkhtmltopdf.exe -s A4 -O Landscape <input file> "<output file>" -->
+    <!-- /////////////// -->
+    <div class="container">
+        <div class="row">
+            <table class="table table-modif table-hf watermark">
+                <tr>
+                    <th colspan="4"><h1>GREEN SHEET TAG</h1></th>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <table class="table-bd0">
+                            <tr>
+                                <td><h1>K-50</h1></td>
+                                <td><canvas id="qr1"></canvas></td>
+                                <td colspan="2" class="text-left">
+                                    DOC. NO. : F-SH-0010 <br />
+                                    REV. NO : 7.00
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">LOT NUMBER</td>
+                    <td colspan="2">9-9876</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Coater No</td>
+                    <td colspan="2">9</td>
+                </tr>
+                <tr>
+                    <td>สูตรการผสม</td>
+                    <td colspan="2">BLS 50 %</td>
+                    <td>BMS 50 %</td>
+                </tr>
+                <tr>
+                    <td>วันที่ผลิต<br />Date:</td>
+                    <td colspan="3"><h4>July 16, 2015</h4></td>
+                </tr>
+                <tr>
+                    <td>ใช้ถุง Recycle</td>
+                    <td colspan="3"><h4>White/Orange</h4></td>
+                </tr>
+                <tr>
+                    <td>ม้วนที่<br />Winding no.</td>
+                    <td>12</td>
+                    <td>ความกว้าง<br />Widthness</td>
+                    <td><h4>100</h4></td>
+                </tr>
+                <tr>
+                    <td>น้ำหนัก<br />Weight</td>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="text-left">ชื่อพนักงาน  (Name)</td>
+                </tr>
+                <tr>
+                    <td>หมายเหตุ</td>
+                    <td colspan="3" class="text-left">ครีนชีทมีอายุการใช้งาน 1 ปีโดยนับจากวันที่ผลิต</td>
+                </tr>
+            </table>
+
+            <table class="table table-modif table-hf watermark">
+                <tr>
+                    <th colspan="4"><h1>GREEN SHEET TAG</h1></th>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <table class="table-bd0">
+                            <tr>
+                                <td><h1>K-50</h1></td>
+                                <td><canvas id="qr"></canvas></td>
+                                <td colspan="2" class="text-left">
+                                    DOC. NO. : F-SH-0010 <br />
+                                    REV. NO : 7.00
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">LOT NUMBER</td>
+                    <td colspan="2">9-9876</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Coater No</td>
+                    <td colspan="2">9</td>
+                </tr>
+                <tr>
+                    <td>สูตรการผสม</td>
+                    <td colspan="2">BLS 50 %</td>
+                    <td>BMS 50 %</td>
+                </tr>
+                <tr>
+                    <td>วันที่ผลิต<br />Date:</td>
+                    <td colspan="3"><h4>July 16, 2015</h4></td>
+                </tr>
+                <tr>
+                    <td>ใช้ถุง Recycle</td>
+                    <td colspan="3"><h4>White/Orange</h4></td>
+                </tr>
+                <tr>
+                    <td>ม้วนที่<br />Winding no.</td>
+                    <td>12</td>
+                    <td>ความกว้าง<br />Widthness</td>
+                    <td><h4>100</h4></td>
+                </tr>
+                <tr>
+                    <td>น้ำหนัก<br />Weight</td>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="text-left">ชื่อพนักงาน  (Name)</td>
+                </tr>
+                <tr>
+                    <td>หมายเหตุ</td>
+                    <td colspan="3" class="text-left">ครีนชีทมีอายุการใช้งาน 1 ปีโดยนับจากวันที่ผลิต</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/qrious/dist/qrious.min.js"></script>
+    <script>
+    (function() {
+        var qr = new QRious({
+            element: document.getElementById('qr'),
+            size: 80,
+            value: 'https://github.com/neocotic/qrious'
+        });
+
+        var qr1 = new QRious({
+            element: document.getElementById('qr1'),
+            size: 80,
+            value: 'www.google.com'
+        });
+    })();
+    </script>
+</body>
+</html>
