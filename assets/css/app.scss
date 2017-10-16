@@ -45,11 +45,37 @@ body {
     }
 }
 
+.table-modif td.border-r-0 {
+    border-right: 0!important;
+}
+.table-modif td.border-l-0 {
+    border-left: 0!important;
+}
+.table-modif td.border-t-0 {
+    border-top: 0!important;
+}
+.table-modif td.border-b-0 {
+    border-bottom: 0!important;
+}
+
 
 /* ==========================================================================
    1. Basic Elements
 /* ========================================================================== */
 
+.custom-checkbox .custom-control-indicator {
+    border: 1px solid #717171;
+}
+
+.custom-checkbox .custom-control-indicator {
+    border-radius: 0;
+}
+
+.custom-control-indicator {
+    width: .8rem;
+    height: .8rem;
+    background-color: #fff;
+}
 /* ==========================================================================
    2. Generic Classes
    ========================================================================== */
@@ -126,6 +152,28 @@ div.vertical {
 
         & tr.fnt-up {
             font-size: 1.1rem;
+        }
+    }
+
+
+    &-sm {
+        font-size: .7rem;
+        font-weight: normal;
+        margin-top: 10px;
+        text-align: left;
+
+        & td.vt-b {
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        & th {
+            font-weight: normal;
+        }
+
+        & td.hl {
+            vertical-align: middle;
+            background-color: #dadada !important;
         }
     }
 
