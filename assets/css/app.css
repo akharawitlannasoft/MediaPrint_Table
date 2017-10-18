@@ -60,11 +60,24 @@ body {
   height: .8rem;
   background-color: #fff; }
 
+h5 > span {
+  font-size: .8rem;
+  font-weight: normal;
+  text-decoration: underline; }
+
+.trantilte {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
 /* ==========================================================================
    2. Generic Classes
    ========================================================================== */
 table {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .box_test {
   min-width: 14rem;
@@ -124,7 +137,7 @@ div.vertical {
     .table-modif-nm tr.fnt-up {
       font-size: 1.1rem; }
   .table-modif-sm {
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: normal;
     margin-top: 10px;
     text-align: left; }
@@ -136,6 +149,17 @@ div.vertical {
     .table-modif-sm td.hl {
       vertical-align: middle;
       background-color: #dadada !important; }
+    .table-modif-sm td.hl-bg {
+      background-color: #dadada !important; }
+    .table-modif-sm .bd-rs {
+      border: 1px solid #717171 !important;
+      border-radius: 50%;
+      width: 1.2rem;
+      display: inline-block;
+      padding: 0; }
+    .table-modif-sm span.wdh {
+      display: inline-block;
+      width: 60%; }
   .table-modif .bg {
     background: #dadada !important; }
   .table-modif span.end-time {
@@ -177,6 +201,8 @@ div.vertical {
     font-size: 1.2rem; }
   .table-modif tr.txt-small > td {
     font-size: 0.8rem !important; }
+  .table-modif label {
+    margin-bottom: 0; }
 
 .table-modif td, .table-modif th {
   padding: .25rem;
@@ -302,12 +328,71 @@ div.vertical {
       font-size: .3rem; }
     .table-modif-nm tr.fnt-up {
       font-size: .6rem; }
+    .table-modif-sm {
+      font-size: 0.45rem !important; }
+      .table-modif-sm td, .table-modif-sm th {
+        padding: 0.1rem 0.15rem !important; }
+      .table-modif-sm .bd-rs {
+        width: .7rem; }
+      .table-modif-sm .custom-control-description {
+        display: block; }
+      .table-modif-sm .custom-control-indicator {
+        width: .7rem;
+        height: .7rem; }
+      .table-modif-sm .custom-control {
+        padding-left: 1rem; }
+      .table-modif-sm td.table-cell-r {
+        position: relative; }
+      .table-modif-sm td.table-cell-r:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 1px;
+        background-color: transparent;
+        border-right: 1px solid #717171;
+        width: 100%;
+        height: 100%; }
+    .table-modif td.table-cell-l {
+      position: relative; }
+    .table-modif td.table-cell-l:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -1px;
+      background-color: transparent;
+      border-left: 1px solid #717171;
+      width: 100%;
+      height: 100%; }
+    .table-modif td.table-cell-t {
+      position: relative; }
+    .table-modif td.table-cell-t:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -1px;
+      background-color: transparent;
+      border-top: 1px solid #717171;
+      width: 100%;
+      height: 100%; }
+    .table-modif td.table-cell-b {
+      position: relative; }
+    .table-modif td.table-cell-b:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -1px;
+      background-color: transparent;
+      border-bottom: 1px solid #717171;
+      width: 100%;
+      height: 100%; }
     .table-modif span.end-time {
       padding: 0.2rem 3px 0.3rem 0; }
     .table-modif th.fntUp {
       font-size: .6rem; }
     .table-modif tr.txt-small > td {
       font-size: 0.4rem !important; }
+    .table-modif .bdl-1 {
+      border-left: 1px solid red !important; }
 
   .table-modif td, .table-modif th {
     padding: .15rem .25rem; }
@@ -372,7 +457,12 @@ div.vertical {
     top: -275px;
     font-size: 45rem;
     opacity: 0.1;
-    left: 0; } }
+    left: 0; }
+
+  h5 > span {
+    font-size: .5rem;
+    font-weight: normal;
+    text-decoration: underline; } }
 /* ==========================================================================
    3. Basic Layout
    ========================================================================== */

@@ -76,11 +76,32 @@ body {
     height: .8rem;
     background-color: #fff;
 }
+
+h5 {
+    &>span {
+        font-size: .8rem;
+        font-weight: normal;
+        text-decoration: underline;
+    }
+}
+
+
+.trantilte {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
 /* ==========================================================================
    2. Generic Classes
    ========================================================================== */
+
+
+
 table {
     width: 100%;
+    position: relative;
 }
 
 .box_test {
@@ -157,7 +178,7 @@ div.vertical {
 
 
     &-sm {
-        font-size: .7rem;
+        font-size: .8rem;
         font-weight: normal;
         margin-top: 10px;
         text-align: left;
@@ -174,6 +195,23 @@ div.vertical {
         & td.hl {
             vertical-align: middle;
             background-color: #dadada !important;
+        }
+
+        & td.hl-bg {
+            background-color: #dadada !important;
+        }
+
+        & .bd-rs {
+            border: 1px solid #717171!important;
+            border-radius: 50%;
+            width: 1.2rem;
+            display: inline-block;
+            padding: 0;
+        }
+
+        & span.wdh {
+            display: inline-block;
+            width: 60%;
         }
     }
 
@@ -242,6 +280,10 @@ div.vertical {
 
     & tr.txt-small>td {
         font-size: .8rem!important;
+    }
+
+    label {
+        margin-bottom: 0;
     }
 }
 
@@ -389,6 +431,95 @@ div.vertical {
             }
         }
 
+        &-sm {
+            font-size: .45rem!important;
+
+
+            & td,
+            & th {
+                padding: .10rem .15rem!important;
+            }
+
+            & .bd-rs {
+                width: .7rem;
+            }
+
+            & .custom-control-description {
+                display: block;
+            }
+
+            & .custom-control-indicator {
+                width: .7rem;
+                height: .7rem;
+            }
+
+            & .custom-control {
+                padding-left: 1rem;
+            }
+
+            & td.table-cell-r {
+                position: relative;
+            }
+    
+            & td.table-cell-r:before {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 1px;
+                background-color: transparent;
+                border-right: 1px solid #717171;
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        & td.table-cell-l {
+            position: relative;
+        }
+
+        & td.table-cell-l:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: -1px;
+            background-color: transparent;
+            border-left: 1px solid #717171;
+            width: 100%;
+            height: 100%;
+        }
+
+        & td.table-cell-t {
+            position: relative;
+        }
+
+        & td.table-cell-t:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: -1px;
+            background-color: transparent;
+            border-top: 1px solid #717171;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        & td.table-cell-b {
+            position: relative;
+        }
+
+        & td.table-cell-b:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: -1px;
+            background-color: transparent;
+            border-bottom: 1px solid #717171;
+            width: 100%;
+            height: 100%;
+        }
+
         & span.end-time {
             padding: 0.2rem 3px 0.3rem 0;
         }
@@ -400,6 +531,13 @@ div.vertical {
         & tr.txt-small>td {
             font-size: .4rem!important;
         }
+
+        & .bdl-1 {
+            border-left: 1px solid red!important;
+        }
+
+
+
     }
 
     .table-modif td, .table-modif th {
@@ -495,6 +633,14 @@ div.vertical {
             font-size: 45rem;
             opacity: 0.1;
             left: 0;
+        }
+    }
+
+    h5 {
+        &>span {
+            font-size: .5rem;
+            font-weight: normal;
+            text-decoration: underline;
         }
     }
 }

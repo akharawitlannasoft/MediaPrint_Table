@@ -12,16 +12,18 @@
     <div class="container">
         <table class="table table-modif table-modif-sm">
             <tr>
-                <td colspan="13" class="border-0">&nbsp;</td>
-                <td colspan="2">Page 1 of 2</td>
+                <td colspan="13" class="border-l-0 border-t-0 border-b-0">
+                    <h5 class="text-center trantilte">Production Sheet For High Price Product <br /><span>Transefer specification</span></h5>
+                </td>
+                <td colspan="2" class="text-center table-cell-l">Page 1 of 2</td>
             </tr>
             <tr>
-                <td colspan="11" class="border-0">&nbsp;</td>
-                <th colspan="2">QA Approved</th>
+                <td colspan="11" class="border-t-0 border-l-0 border-b-0">&nbsp;</td>
+                <th colspan="2" class="table-cell-t">QA Approved</th>
                 <th colspan="2">Technical Approved</th>
             </tr>
             <tr>
-                <td colspan="11" class="border-0">&nbsp;</td>
+                <td colspan="11" class="border-t-0 border-l-0">&nbsp;</td>
                 <td rowspan="3" colspan="2" class="vt-b">Iwamoto</td>
                 <td rowspan="3" colspan="2" class="vt-b">Yoshimura</td>
             </tr>
@@ -31,34 +33,62 @@
                 <th rowspan="2">No.</th>
                 <td rowspan="2">&nbsp;</td>
                 <th rowspan="2">Date</th>
-                <td rowspan="2" colspan="2">&nbsp;</td>
+                <td rowspan="2" colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <th>Shipping name</th>
                 <td colspan="4">&nbsp;</td>
             </tr>
             <tr>
-                <td colspan="15">
+                <td colspan="6" class="border-r-0">
                     Refer to substrate drawing & Die drawing No.
+                </td>
+                <td colspan="4" class="border-l-0 border-r-0 text-center">
+                    Product Group (กลุ่มผลิตภัณฑ์)
+                </td>
+                <td colspan="5" class="border-l-0">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Chip</span>
+                    </label>
+
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Thin product</span>
+                    </label>
+
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Chip array</span>
+                    </label>
+
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Ohters</span>
+                    </label>
                 </td>
             </tr>
             <tr>
-                <td>Process</td>
-                <td colspan="14">Process condition</td>
+                <td>strong</td>
+                <td colspan="14" class="text-center">Process condition</td>
             </tr>
 
             <!-- Set rowspan -->
             <tr>
-                <td rowspan="22">Punching</td>
-                <td rowspan="4" class="text-center">
-                    1<br />
+                <td rowspan="22" class="table-cell-r"><strong>Punching</strong></td>
+                <td rowspan="4" class="text-center table-cell-r">
+                    <span class="bd-rs">1</span><br />
                     G/S<br />
                     with<br />
                     drae<br />
                     al
                 </td>
-                <td rowspan="2" colspan="2">1. Sheet type<br />(ชนิดกรีนชีท)</td>
-                <td rowspan="2" class="border-0">
+                <td rowspan="2" colspan="2">1. Sheet type (ชนิดกรีนชีท)</td>
+                <td rowspan="2" class="border-r-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -68,32 +98,32 @@
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Other....</span>
+                        <span class="custom-control-description">Other:..</span>
                     </label>
                 </td>
-                <td rowspan="2" class="border-0">
+                <td rowspan="2" class="border-l-0 border-r-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">C-type</span>
                     </label>
                 </td>
-                <td rowspan="2" class="border-0">
+                <td rowspan="2" class="border-l-0 border-r-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">D-type</span>
                     </label>
                 </td>
-                <td rowspan="2" class="border-0">
+                <td rowspan="2" class="border-l-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">L-type</span>
                     </label>
                 </td>
-                <td rowspan="14" class="text-center">
-                    2<br />
+                <td rowspan="14" class="text-center table-cell-l">
+                    <span class="bd-rs">2</span><br />
                     M/C<br />
                     prep<br />
                     arati<br />
@@ -145,54 +175,55 @@
             </tr>
             <tr>
                 <td rowspan="18" class="text-center">
-                    2<br />
+                    <span class="bd-rs">2</span><br />
                     M/C<br />
                     prep<br />
                     arati<br />
                     on
                 </td>
-                <td colspan="2">1. Die-set No. (เลขที่แม่พิมพ์)<br />(ความหนา G/S, ความกว้าง, L/W)</td>
+                <td colspan="2">1. Die-set No. (เลขที่แม่พิมพ์)</td>
                 <td colspan="1">&nbsp;</td>
-                <td colspan="3">Manufacture date<br /> (วันที่ผลิต)</td>
+                <td class="border-r-0">Manufacture date<br /> (วันที่ผลิต)</td>
+                <td colspan="2" class="border-l-0">:</td>
                 <td rowspan="2" class="border-r-0 hl">Shot blade control</td>
-                <td class="border-0 hl">L-Up =</td>
+                <td class="border-b-0 border-l-0 border-r-0 hl">L-Up =</td>
                 <td colspan="2" class="border-l-0 border-b-0 hl">W-Up =</td>
             </tr>
             <tr>
                 <td rowspan="2" colspan="2">2. History die.(ประวัติแม่พิมพ์)</td>
-                <td class="border-r-0">
+                <td class="border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">New</span>
                     </label>
                 </td>
-                <td colspan="3" class="border-l-0">
+                <td colspan="3" class="border-l-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Modify from:</span>
                     </label>
                 </td>
-                <td class="border-0 hl">L-Up =</td>
+                <td class="border-r-0 border-l-0 border-t-0 hl">L-Up =</td>
                 <td colspan="2" class="border-l-0 border-t-0 hl">W-Up =</td>
             </tr>
             <tr>
-                <td colspan="2" class="border-r-0">
+                <td colspan="2" class="border-r-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Tranfer from:</span>
+                        <span class="custom-control-description">Tranfer from :</span>
                     </label>
                 </td>
-                <td class="border-l-0 border-r-0">
+                <td class="border-l-0 border-r-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Repair</span>
                     </label>
                 </td>
-                <td class="border-l-0">
+                <td class="border-l-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -234,7 +265,7 @@
                         <span class="custom-control-description">Two state #1W, #2L</span>
                     </label>
                 </td>
-                <td class="border-l-0 hl">
+                <td class="border-l-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -282,11 +313,11 @@
                 </td>
                 <td rowspan="5" colspan="2">17. Slit depth Green sheet<br />(ความลึก สแนปกรีนชีท)</td>
                 <td>Depth/remain<br />(ลึก/คงเหลือ)</td>
-                <td class="border-0">
+                <td class="border-r-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Depth (Red)</span>
+                        <span class="custom-control-description fnsmall">Depth (Red)</span>
                     </label>
                 </td>
                 <td colspan="2" class="border-l-0">
@@ -327,31 +358,31 @@
             </tr>
             <tr>
                 <td rowspan="4" colspan="2">7. Step punch (ขั้นตอนพันซ์)</td>
-                <td>Hole dim.(ขนาดรู)</td>
-                <td>TTL hole.(จำนวนรู)</td>
-                <td>w side.(holes)</td>
-                <td>L side.(holes)</td>
-                <td rowspan="2" class="border-0">Inside spec(um)<br />(สเบคภายใน)</td>
-                <td class="border-0">LD1 =</td>
-                <td class="border-0">LDA =</td>
+                <td class="text-center">Hole dim.(ขนาดรู)</td>
+                <td class="text-center">TTL hole (จำนวนรู)</td>
+                <td class="text-center">w side (holes)</td>
+                <td class="text-center">L side (holes)</td>
+                <td rowspan="2" class="border-r-0">Inside spec(um)<br />(สเบคภายใน)</td>
+                <td class="border-r-0 border-l-0 border-b-0">LD1 =</td>
+                <td class="border-r-0 border-l-0 border-b-0">LDA =</td>
                 <td class="border-l-0 border-b-0">LDB =</td>
             </tr>
             <tr>
-                <td class="border-b-0">0..............mm.</td>
-                <td class="border-b-0">..................holes.</td>
+                <td class="border-b-0 text-center">0..............mm.</td>
+                <td class="border-b-0 text-center">..................holes.</td>
                 <td class="border-b-0">&nbsp;</td>
                 <td class="border-b-0">&nbsp;</td>
-                <td class="border-0">WD1 =</td>
-                <td class="border-0">WDA =</td>
+                <td class="border-r-0 border-l-0 border-t-0">WD1 =</td>
+                <td class="border-r-0 border-l-0 border-t-0">WDA =</td>
                 <td class="border-l-0 border-t-0">WDB =</td>
             </tr>
             <tr>
-                <td class="border-b-0 border-t-0">0..............mm.</td>
-                <td class="border-b-0 border-t-0">..................holes.</td>
+                <td class="border-b-0 text-center">0..............mm.</td>
+                <td class="border-b-0 text-center">..................holes.</td>
                 <td class="border-b-0 border-t-0">&nbsp;</td>
                 <td class="border-b-0 border-t-0">&nbsp;</td>
                 <td rowspan="3" class="text-center">
-                    3<br />
+                    <span class="bd-rs">3</span><br />
                     Tsu<br />
                     bush<br />
                     i
@@ -364,13 +395,13 @@
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Not require</span>
+                        <span class="custom-control-description fnsmall">Not require</span>
                     </label>
                 </td>
             </tr>
             <tr>
-                <td class="border-t-0">0..............mm.</td>
-                <td class="border-t-0">..................holes.</td>
+                <td class="border-b-0 text-center">0..............mm.</td>
+                <td class="border-b-0 text-center">..................holes.</td>
                 <td class="border-t-0">&nbsp;</td>
                 <td class="border-t-0">&nbsp;</td>
                 <td colspan="2" class="hl">2. Air pressure (แรงดันลม)</td>
@@ -379,7 +410,7 @@
                 <td colspan="2" class="border-l-0 hl">Back=</td>
             </tr>
             <tr>
-                <td rowspan="2" colspan="2">8. Press machine type (ชนิดของเครื่องพ่น)</td>
+                <td rowspan="2" colspan="2">8. Press machine type<br />(ชนิดของเครื่องพ่น)</td>
                 <td class="border-r-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
@@ -434,7 +465,7 @@
                     </label>
                 </td>
                 <td rowspan="2" class="text-center">
-                    4<br />
+                   <span class="bd-rs">4</span><br />
                     Remo<br />
                     ve<br />
                     dusl
@@ -471,21 +502,21 @@
             </tr>
             <tr>
                 <td rowspan="2" colspan="2">9. Pressure M/C (แรงดันเครื่อง)</td>
-                <td colspan="2">Passure oil: .............Kg/cm2</td>
-                <td colspan="2">Pressure gauge: ..........Kg/cm2</td>
+                <td colspan="2">Passure oil: .............Kg/cm<sup>2</sup></td>
+                <td colspan="2">Pressure gauge: ..........Kg/cm<sup>2</sup></td>
                 <td colspan="2" class="hl">2. Face each other (ประกบ)</td>
                 <td class="border-r-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Face to face L</span>
+                        <span class="custom-control-description fnsmall">Face to face L</span>
                     </label>
                 </td>
                 <td class="border-l-0 border-r-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Face to face W</span>
+                        <span class="custom-control-description fnsmall">Face to face W</span>
                     </label>
                 </td>
                 <td colspan="2" class="border-l-0 hl">
@@ -499,49 +530,49 @@
             <tr>
                 <td colspan="2">Power press time: ..............Second</td>
                 <td colspan="2">&nbsp;</td>
-                <td rowspan="3" colspan="7">Special control (ควบคุมพิเศษ):</td>
+                <td rowspan="3" colspan="7"><strong>Special control (ควบคุมพิเศษ):</strong></td>
             </tr>
             <tr>
                 <td class="hl" colspan="2">10. Chip array use vacuum (ใช้ลมดูด)</td>
-                <td class="hl">
+                <td class="border-r-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">User</span>
                     </label>
                 </td>
-                <td class="hl">
+                <td class="border-l-0 border-r-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">No use</span>
                     </label>
                 </td>
-                <td colspan="2" class="hl">&nbsp;</td>
+                <td colspan="2" class="border-l-0 hl">&nbsp;</td>
             </tr>
             <tr>
                 <td class="hl" colspan="2">11. Die chip array cleaning shot (ทำความสะอาดแม่พิมพ์งานมีรู)</td>
-                <td colspan="2" class="hl">Upper =</td>
-                <td colspan="2" class="hl">Lower =</td>
+                <td colspan="2" class="border-r-0 hl">Upper =</td>
+                <td colspan="2" class="border-l-0 hl">Lower =</td>
             </tr>
 
 
             <!-- ///////////////////////////////////////////////////////////////////////////////// -->
             <!-- New block -->
             <tr>
-                <td rowspan="30">Sintering</td>
-                <td rowspan="4" class="text-center">
-                    1<br />
+                <td rowspan="35" class="table-cell-r">Sintering</td>
+                <td rowspan="4" class="text-center table-cell-r">
+                    <span class="bd-rs">1</span><br />
                     O<br />
                     v<br />
                     e<br />
                     n
                 </td>
-                <td rowspan="4" colspan="2">Furnace direction(รูปแบบการโหลด)</td>
-                <td rowspan="2" colspan="2">Support(ซัพพอร์ด)</td>
-                <td rowspan="2" colspan="2">Setter(เซ็ดเตอร์)</td>
-                <td rowspan="10" class="border-r-0">6</td>
-                <td rowspan="10" class="border-l-0">Taping<br />(เทป)</td>
+                <td rowspan="4" colspan="2" class="text-center table-cell-r hl-bg">Furnace direction (รูปแบบการโหลด)</td>
+                <td rowspan="2" colspan="2" class="text-center table-cell-r">Support (ซัพพอร์ด)</td>
+                <td rowspan="2" colspan="2" class="text-center table-cell-r">Setter (เซ็ดเตอร์)</td>
+                <td rowspan="10" class="border-r-0 text-center"><span class="bd-rs">6</span></td>
+                <td rowspan="10" class="border-l-0"><strong>Taping</strong><br />(เทป)</td>
                 <td colspan="2">Appearance before tapping</td>
                 <td colspan="3">
                     <label class="custom-control custom-checkbox">
@@ -559,106 +590,106 @@
             </tr>
             <tr>
                 <td>Time (ครั้งที่)</td>
-                <td colspan="4" class="text-center">Condition(เงื่อนไข)</td>
+                <td colspan="4" class="text-center">Condition (เงื่อนไข)</td>
+            </tr>
+            <tr class="text-center">
+                <td rowspan="2" class="table-cell-r">Q'TY Statffing<br />จำนวนสต๊าฟฟิ่ง</td>
+                <td rowspan="2" class="table-cell-r">Sheet (แผ่น)</td>
+                <td rowspan="2" class="table-cell-r">Pile (กอง)</td>
+                <td rowspan="2" class="table-cell-r">Stage (ชั้น)</td>
+                <td class="text-center">1st (ครั้งที่ 1)</td>
+                <td class="text-center">Nomal (ปกติ)</td>
+                <td class="text-center">C-Corner (เรียงมุม)</td>
+                <td class="text-center">Opposite<br />(ประกบหัวท้าย)</td>
+                <td class="text-center">Other..</td>
             </tr>
             <tr>
-                <td rowspan="2">Q'TY Statffing<br />จำนวนสต๊าฟฟิ่ง</td>
-                <td rowspan="2">Sheet(แผ่น)</td>
-                <td rowspan="2">Pile(กอง)</td>
-                <td rowspan="2">Stage(ชั้น)</td>
-                <td>1st(ครั้งที่ 1)</td>
-                <td>Nomal(ปกติ)</td>
-                <td>C-Corner(เรียงมุม)</td>
-                <td>Opposite<br />(ประกบหัวท้าย)</td>
-                <td>Other..</td>
-            </tr>
-            <tr>
-                <td>Nomal(ปกติ)</td>
-                <td class="text-center">.....st.</td>
-                <td class="text-center">.....st.</td>
-                <td class="text-center">.....st.</td>
-                <td class="text-center">.....st.</td>
-            </tr>
-            <tr>
-                <td rowspan="3" class="border-r-0">2</td>
-                <td rowspan="3" class="border-l-0">Powdering <br /> (โรยฝุ่น)</td>
-                <td colspan="2">Powder type(ชนิดฝุ่น)</td>
-                <td>Quanitity magazine control</td>
-                <td>: st.</td>
-                <td>Paraffin side<br />(ด้านที่ทาพาราฟิน)</td>
-                <td>Lower(แผ่นล่าง)</td>
+                <td>Nomal (ปกติ)</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
             </tr>
             <tr>
-                <td>
+                <td rowspan="3" class="border-r-0 text-center"><span class="bd-rs">2</span></td>
+                <td rowspan="3" class="border-l-0"><strong>Powdering</strong> <br /> (โรยฝุ่น)</td>
+                <td colspan="2" class="text-center">Powder type (ชนิดฝุ่น)</td>
+                <td class="border-r-0 hl">Quanitity magazine control</td>
+                <td class="border-l-0 hl">: <span class="wdh">&nbsp;</span>st.</td>
+                <td class="text-center table-cell-r">Paraffin side<br />(ด้านที่ทาพาราฟิน)</td>
+                <td>Lower (แผ่นล่าง)</td>
+                <td class="text-center">.....st.</td>
+                <td class="text-center">.....st.</td>
+                <td class="text-center">.....st.</td>
+                <td class="text-center">.....st.</td>
+            </tr>
+            <tr>
+                <td class="border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">#325</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">#200</span>
                     </label>
                 </td>
-                <td>% Glue<br /> (เปอร์เซ็นกาว)</td>
-                <td>: %.</td>
-                <td>
+                <td class="border-r-0 hl">% Glue<br /> (เปอร์เซ็นกาว)</td>
+                <td class="border-l-0 hl">: <span class="wdh">&nbsp;</span>%</td>
+                <td class="border-b-0 table-cell-r">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">W-Side</span>
                     </label>
                 </td>
-                <td>Camber(แผ่นงอ)</td>
+                <td>Camber (แผ่นงอ)</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
             </tr>
             <tr>
-                <td>
+                <td class="border-r-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">#270</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">#400 ZAWX</span>
                     </label>
                 </td>
-                <td>% Glue<br /> (เปอร์เซ็นกาว)</td>
-                <td>: c.</td>
-                <td>
+                <td class="border-r-0 hl">Paraffin<br />temperature</td>
+                <td class="border-l-0 hl">: <span class="wdh">&nbsp;</span><sup>๐</sup>C</td>
+                <td class="border-t-0 table-cell-r"> 
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">L-Side</span>
                     </label>
                 </td>
-                <td>2st(ครั้งที่ 2)</td>
-                <td>Nomal(ปกติ)</td>
-                <td>C-Corner(เรียงมุม)</td>
-                <td>Opposite<br />(ประกบหัวท้าย)</td>
-                <td>Other..</td>
+                <td class="text-center">2nd (ครั้งที่ 2)</td>
+                <td class="text-center">Nomal (ปกติ)</td>
+                <td class="text-center">C-Corner (เรียงมุม)</td>
+                <td class="text-center">Opposite<br />(ประกบหัวท้าย)</td>
+                <td class="text-center">Other..</td>
             </tr>
 
             <tr>
-                <td rowspan="12" class="border-r-0">3</td>
-                <td rowspan="12" colspan="2" class="border-l-0">Sintering<br />(การเผา)</td>
-                <td rowspan="2" colspan="2">Support(ซัพพอร์ต)</td>
-                <td rowspan="2" colspan="2">Setter(เซ็ตเตอร์)</td>
-                <td>Nomal(ปกติ)</td>
+                <td rowspan="12" class="border-r-0 text-center"><span class="bd-rs">3</span></td>
+                <td rowspan="12" colspan="2" class="border-l-0 table-cell-r"><strong>Sintering</strong> <br />(การเผา)</td>
+                <td rowspan="2" colspan="2" class="text-center table-cell-r">Support (ซัพพอร์ต)</td>
+                <td rowspan="2" colspan="2" class="text-center table-cell-r">Setter (เซ็ตเตอร์)</td>
+                <td>Nomal (ปกติ)</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
@@ -671,43 +702,54 @@
                 <td class="text-center">.....st.</td>
                 <td class="text-center">.....st.</td>
             </tr>
-            <tr>
-                <td rowspan="2">Q'TY Staffing<br />จำนวนสต๊าฟฟิ่ง</td>
-                <td rowspan="2">Sheet(แผ่น)</td>
-                <td rowspan="2">Row(กอง)</td>
-                <td rowspan="2">Stage(ชั้น)</td>
-                <td>Camber(แผ่นงอ)</td>
-                <td class="text-center">.....st.</td>
-                <td class="text-center">.....st.</td>
-                <td class="text-center">.....st.</td>
-                <td class="text-center">.....st.</td>
+            <tr class="text-center">
+                <td rowspan="2" class="table-cell-r">Q'TY Staffing<br />จำนวนสต๊าฟฟิ่ง</td>
+                <td rowspan="2" class="table-cell-r">Sheet (แผ่น)</td>
+                <td rowspan="2" class="table-cell-r">Row (กอง)</td>
+                <td rowspan="2" class="table-cell-r">Stage (ชั้น)</td>
+                <td class="text-left">Camber (แผ่นงอ)</td>
+                <td>.....st.</td>
+                <td>.....st.</td>
+                <td>.....st.</td>
+                <td>.....st.</td>
             </tr>
             <tr>
-                <td rowspan="8">7</td>
-                <td rowspan="4">Ann 1st<br />(แอนครั้งที่ 1)</td>
-                <td rowspan="2">Setter type<br />ชนิดช็ตเตอร์</td>
-                <td>
+                <td rowspan="8" class="text-center table-cell-r">
+                    <span class="bd-rs">7</span><br />
+                    A<br />
+                    n<br />
+                    n<br />
+                    e<br />
+                    a<br />
+                    l<br />
+                    i<br />
+                    n<br />
+                    g<br />
+                </td>
+                <td rowspan="4" class="text-center table-cell-r">Ann 1st<br />(แอนครั้งที่ 1)</td>
+                <td rowspan="2" class="text-center">Setter type<br />ชนิดช็ตเตอร์</td>
+                <td class="border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">103*85*4</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">135*85*4</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">260*130*5</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-b-0 border-l-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -716,16 +758,16 @@
                 </td>
             </tr>
             <tr>
-                <td rowspan="2">Remark<br />(หมายเหตุ)</td>
-                <td rowspan="2" colspan="3">&nbsp;</td>
-                <td>
+                <td rowspan="2" class="text-center table-cell-r">Remark<br />(หมายเหตุ)</td>
+                <td rowspan="2" colspan="3" class="table-cell-r">&nbsp;</td>
+                <td class="border-r-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Camber<br />(โค้งงอ)</span>
                     </label>
                 </td>
-                <td colspan="3">
+                <td colspan="3" class="border-t-0 border-l-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -734,57 +776,57 @@
                 </td>
             </tr>
             <tr>
-                <td>Weight(น้ำหนัก)</td>
+                <td class="text-center">Weight (น้ำหนัก)</td>
                 <td colspan="2">&nbsp;</td>
-                <td rowspan="2">stack/stage<br />การวางกอง/ชั้น</td>
+                <td rowspan="2" class="text-center">stack/stage<br />การวางกอง/ชั้น</td>
                 <td rowspan="2">&nbsp;</td>
             </tr>
             <tr>
-                <td rowspan="2">Sheet/Block<br />(แผ่น/บล็อค)</td>
-                <td rowspan="2">Sheet/Set<br />(แผ่น/เซ็ต)</td>
-                <td colspan="2">Setter Powder(ชนิดฝุ่นโรยเซ็ตเตอร์)</td>
-                <td>Stage(ชั้น)</td>
+                <td rowspan="2" class="text-center table-cell-r">Sheet/Block<br />(แผ่น/บล็อค)</td>
+                <td rowspan="2" class="text-center">Sheet/Set<br />(แผ่น/เซ็ต)</td>
+                <td colspan="2" class="border-b-0 text-center table-cell-r">Setter Powder (ชนิดฝุ่นโรยเซ็ตเตอร์)</td>
+                <td class="text-center">Stage (ชั้น)</td>
                 <td colspan="2">&nbsp;</td>
             </tr>
             <tr>
-                <td>
+                <td class="border-t-0 border-r-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">#270 Mixed</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-t-0 border-l-0 table-cell-r">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Asapa sheet</span>
                     </label>
                 </td>
-                <td rowspan="4">Ann 2st<br />(แอนครั้งที่ 2)</td>
-                <td rowspan="2">Setter type<br />ชนิดช็ตเตอร์</td>
-                <td>
+                <td rowspan="4" class="text-center table-cell-r">Ann 2st<br />(แอนครั้งที่ 2)</td>
+                <td rowspan="2" class="text-center">Setter type<br />ชนิดช็ตเตอร์</td>
+                <td class="border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">103*85*4</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">135*85*4</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 border-r-0 border-b-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">260*130*5</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-b-0 border-l-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -793,16 +835,16 @@
                 </td>
             </tr>
             <tr>
-                <td rowspan="4">Furnace direction<br />รูปแบบการโหลด</td>
-                <td rowspan="4" colspan="3">&nbsp;</td>
-                <td>
+                <td rowspan="4" class="text-center table-cell-r">Furnace direction<br />รูปแบบการโหลด</td>
+                <td rowspan="4" colspan="3" class="table-cell-r">&nbsp;</td>
+                <td class="border-r-0 border-t-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Camber<br />(โค้งงอ)</span>
                     </label>
                 </td>
-                <td colspan="3">
+                <td colspan="3" class="border-t-0 border-l-0">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -811,26 +853,28 @@
                 </td>
             </tr>
             <tr>
-                <td>Weight(น้ำหนัก)</td>
+                <td class="text-center">Weight (น้ำหนัก):</td>
                 <td colspan="2">&nbsp;</td>
-                <td rowspan="2">stack/stage<br />การวางกอง/ชั้น</td>
+                <td rowspan="2" class="text-center">stack/stage<br />การวางกอง/ชั้น</td>
                 <td rowspan="2">&nbsp;</td>
             </tr>
             <tr>
-                <td>Stage(ชั้น)</td>
+                <td class="text-center">Stage (ชั้น):</td>
                 <td colspan="2">&nbsp;</td>
             </tr>
             <tr>
-                <td rowspan="2" class="border-r-0">8</td>
-                <td rowspan="2" colspan="2" class="border-l-0">Tearing off unloading at annealing<br /> (Thin product)<br />(การแยกชิ้นงานผลิตภัณฑ์บางหลังแอน)</td>
-                <td colspan="2">
+                <td rowspan="2" class="border-r-0 text-center hl-bg">
+                    <span class="bd-rs">8</span>
+                </td>
+                <td rowspan="2" colspan="2" class="border-l-0 text-center hl">Tearing off unloading at annealing<br /> (Thin product)<br />(การแยกชิ้นงานผลิตภัณฑ์บางหลังแอน)</td>
+                <td colspan="2" class="border-b-0 border-r-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Air gun pressure: ...Kgf/cm2</span>
                     </label>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="border-b-0 border-l-0 table-cell-r hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -839,30 +883,30 @@
                 </td>
             </tr>
             <tr>
-                <td rowspan="2">4</td>
-                <td rowspan="2" colspan="2">Tearing off unloading at sintering<br />(การแยกชิ้นงาน)</td>
-                <td colspan="2">
+                <td rowspan="2" class="border-r-0 text-center hl-bg"><span class="bd-rs">4</span></td>
+                <td rowspan="2" colspan="2" class="border-l-0 hl-bg"><strong>Tearing off unloading at sintering</strong> <br />(การแยกชิ้นงาน)</td>
+                <td colspan="2" class="border-r-0 border-b-0 hl-bg">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Air gun pressure: ...Kgf/cm2</span>
+                        <span class="custom-control-description">Air gun pressure: ..Kgf/cm<sup>2</sup></span>
                     </label>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="border-l-0 border-b-0 hl-bg">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Tearing</span>
                     </label>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="border-t-0 border-r-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Urethan stick</span>
                     </label>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="border-t-0 border-l-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
@@ -871,29 +915,29 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
+                <td colspan="2" class="border-r-0 border-t-0 hl-bg">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Urethan stick</span>
                     </label>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="border-l-0 border-t-0 hl-bg">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Other...</span>
                     </label>
                 </td>
-                <td rowspan="10" colspan="2">Counter camber<br />(ความโค้งกลับด้าน)</td>
-                <td rowspan="2">Tapping 1st<br />(ครั้งที่ 1)</td>
-                <td>Quantity(จำนวน)</td>
-                <td>:</td>
-                <td colspan="2">st</td>
+                <td rowspan="10" colspan="2" class="hl-bg table-cell-r">Counter camber<br />(ความโค้งกลับด้าน)</td>
+                <td rowspan="2" class="text-center hl">Tapping 1st<br />(ครั้งที่ 1)</td>
+                <td class="border-r-0 hl">Quantity (จำนวน)</td>
+                <td class="border-l-0 border-r-0 hl">:</td>
+                <td colspan="2" class="border-l-0 hl">st</td>
             </tr>
             <tr>
-                <td rowspan="13" class="text-center">
-                    5<br />
+                <td rowspan="13" class="text-center bdl-1">
+                    <span class="bd-rs">5</span><br />
                     B<br />
                     l<br />
                     a<br />
@@ -903,36 +947,36 @@
                     n<br />
                     g<br />
                 </td>
-                <td colspan="2">Blasting type(ชนิดการขัด)</td>
+                <td colspan="2">Blasting type (ชนิดการขัด)</td>
                 <td colspan="2">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Air blasting(ขัดแบบอากาศ)</span>
+                        <span class="custom-control-description">Air blasting (ขัดแบบอากาศ)</span>
                     </label>
                 </td>
                 <td colspan="2">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Water Blasting(ขัดแบบน้ำ)</span>
+                        <span class="custom-control-description">Water Blasting (ขัดแบบน้ำ)</span>
                     </label>
                 </td>
-                <td>Spacer thickness L:</td>
-                <td></td>mm.</td>
-                <td>W:</td>
-                <td>mm.</td>
+                <td class="border-r-0 hl">Spacer thickness L:</td>
+                <td class="border-l-0 border-r-0 text-right hl">mm.</td>
+                <td class="border-l-0 border-r-0 hl">W:</td>
+                <td class="border-l-0 text-right hl">mm.</td>
             </tr>
             <tr>
-                <td colspan="2">Blasting condition(เงื่อนไขการขัด)</td>
-                <td>Bead type<br />(ชนิดผง)</td>
-                <td>Mode(Fix,Swing)<br />(โหมด)</td>
-                <td>Pressure<br />(แรงดัน)</td>
-                <td>Speed<br />(ความเร็ว)</td>
-                <td rowspan="2">Tapping 2st<br />(ครั้งที่ 2)</td>
-                <td>Quantity(จำนวน)</td>
-                <td>:</td>
-                <td colspan="2">st</td>
+                <td colspan="2">Blasting condition (เงื่อนไขการขัด)</td>
+                <td class="text-center">Bead type<br />(ชนิดผง)</td>
+                <td class="text-center hl-bg">Mode(Fix,Swing)<br />(โหมด)</td>
+                <td class="text-center">Pressure<br />(แรงดัน)</td>
+                <td class="text-center">Speed<br />(ความเร็ว)</td>
+                <td rowspan="2" class="text-center hl">Tapping 2st<br />(ครั้งที่ 2)</td>
+                <td class="border-r-0 hl">Quantity (จำนวน)</td>
+                <td class="border-l-0 border-r-0 hl">:</td>
+                <td colspan="2" class="border-l-0 hl">st</td>
             </tr>
             <tr>
                 <td colspan="2">1st (ครั้งที่ 1)</td>
@@ -940,42 +984,178 @@
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>Spacer thickness L:</td>
-                <td>mm.</td>
-                <td>W:</td>
-                <td>mm.</td>
+                <td class="border-r-0 hl">Spacer thickness L:</td>
+                <td class="border-l-0 border-r-0 text-right hl">mm.</td>
+                <td class="border-l-0 border-r-0 hl">W:</td>
+                <td class="border-l-0 text-right hl">mm.</td>
             </tr>
             <tr>
-                <td colspan="2">2st (ครั้งที่ 2)</td>
+                <td colspan="2">2nd (ครั้งที่ 2)</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td rowspan="2">Annealing 1st<br />(ครั้งที่ 1)</td>
-                <td colspan="2">Setter(เซ็ตเตอร์)</td>
-                <td colspan="2">Support(ซัพพอร์ด)</td>
+                <td rowspan="3" class="text-center hl">Annealing 1st<br />(ครั้งที่ 1)</td>
+                <td class="border-r-0 hl">Setter(เซ็ตเตอร์)</td>
+                <td class="border-l-0 hl">:</td>
+                <td class="border-r-0 hl">Support(ซัพพอร์ด)</td>
+                <td class="border-l-0 hl">:</td>
             </tr>
             <tr>
-                <td colspan="2">*Remark: Bead type is show right*<br />(หมายเหตุ: ชนิดผงขัดดูได้ที่ช่องขวา)</td>
+                <td colspan="2"><strong>*Remark:</strong> Bead type is show right*<br />(หมายเหตุ: ชนิดผงขัดดูได้ที่ช่องขวา)</td>
                 <td colspan="4">GB #12(Kapler). GB #12(Tanakron).#ZWSK180W and GB #13</td>
-                <td colspan="2">Dummy base(แผ่นรอง)</td>
-                <td>
+                <td colspan="2" class="border-r-0 hl">Dummy base (แผ่นรอง)</td>
+                <td class="border-r-0 border-l-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Require</span>
                     </label>
                 </td>
-                <td>
+                <td class="border-l-0 hl">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Not require</span>
+                        <span class="custom-control-description fnsmall">Not require</span>
                     </label>
                 </td>
             </tr>
             <tr>
-                <td>Method input(วิธีการปล่อย)</td>
+                <td colspan="2" class="hl-bg">Method input (วิธีการปล่อย)</td>
+                <td colspan="2" class="hl-bg">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Magazine (ใช้แมกกาซีน)</span>
+                    </label>
+                </td>
+                <td colspan="2" class="hl-bg">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Manual (ใช้มือปล่อย)</span>
+                    </label>
+                </td>
+                <td class="border-r-0 hl">Row (กอง)</td>
+                <td class="border-l-0 hl">:</td>
+                <td class="border-r-0 hl">Stage (ชั้น)</td>
+                <td class="border-l-0 hl">:</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="hl-bg">Input direction(ทิศทางของแผนงาน)</td>
+                <td colspan="2" class="hl-bg">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description fnsmall">Vertical(L) (แนวตั้ง)</span>
+                    </label>
+                </td>
+                <td colspan="2" class="hl-bg">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Horizontal(W) (แนวนอน)</span>
+                    </label>
+                </td>
+                <td rowspan="3" class="text-center hl">Annealing 2nd<br />(ครั้งที่ 2)</td>
+                <td class="border-r-0 hl">Setter(เซ็ตเตอร์)</td>
+                <td class="border-l-0 hl">:</td>
+                <td class="border-r-0 hl">Support(ซัพพอร์ด)</td>
+                <td class="border-l-0 hl">:</td>
+            </tr>
+            <tr>
+                <td colspan="2">Edge blasting(ขัดขอบ)</td>
+                <td colspan="2" class="border-r-0">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Require</span>
+                    </label>
+                </td>
+                <td colspan="2" class="border-l-0">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description fnsmall">Not require</span>
+                    </label>
+                </td>
+                <td colspan="2" class="border-r-0 hl">Dummy base(แผ่นรอง)</td>
+                <td class="border-r-0 border-l-0 hl">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Require</span>
+                    </label>
+                </td>
+                <td class="border-l-0 hl">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description fnsmall">Not require</span>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="hl-bg">Blasting condition(เงื่อนไขการขัด)</td>
+                <td class="text-center hl-bg">Bead type<br />(ชนิดผง)</td>
+                <td class="text-center hl-bg">Mode(Fix,Swing)<br />(โหมด)</td>
+                <td class="text-center hl-bg">Pressure<br />(แรงดัน)</td>
+                <td class="text-center hl-bg">Speed<br />(ความเร็ว)</td>
+                <td class="border-r-0 hl">Row (กอง)</td>
+                <td class="border-l-0 hl">:</td>
+                <td class="border-r-0 hl">Stage (ชั้น)</td>
+                <td class="border-l-0 hl">:</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="hl-bg">1st (ครั้งที่ 1)</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td rowspan="4" colspan="7"><strong>Special control (ควบคุมพิเศษ)</strong></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="hl-bg">2st (ครั้งที่ 2)</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td class="hl-bg">&nbsp;</td>
+                <td class="hl-bg">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2">*Remark: Bead type is show right*<br />(หมายเหตุ: ชนิดผงขัดดูได้ที่ช่องขวา)</td>
+                <td colspan="4">GB #12(Kapler). GB #12(Tanakron).#ZWSK180W and GB #13</td>
+            </tr>
+            <tr>
+                <td>Method input<br />(วิธีการปล่อย)</td>
+                <td>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Magazine<br />(ใช้แมกกาซีน)</span>
+                    </label>
+                </td>
+                <td>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Manual<br />(ใช้มือปล่อย)</span>
+                    </label>
+                </td>
+                <td>Input direction<br />(ทิศทางของแผนงาน)</td>
+                <td>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Vertical(L)<br />(แนวตั้ง)</span>
+                    </label>
+                </td>
+                <td>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Horizontal(W)<br />(แนวนอน)</span>
+                    </label>
+                </td>
             </tr>
         </table>
     </div>
