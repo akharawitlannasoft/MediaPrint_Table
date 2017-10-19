@@ -215,6 +215,10 @@ div.vertical {
   text-align: center;
   vertical-align: middle; }
 
+.table-modif td.ver-c {
+  text-align: center !important;
+  vertical-align: middle !important; }
+
 .tb-sub {
   border: 0 !important;
   width: 100%; }

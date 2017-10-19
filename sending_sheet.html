@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Packing Sheet</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-print-8 text-center">
+                <div class="p-2 bd-highlight text-right">
+                    <h2>Sending Sheet</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-print-4">
+                <!-- //////////////////////////////// -->
+                <!-- Barcode -->
+                <!-- //////////////////////////////// -->
+                <div class="p-2 bd-highlight border box_test text-center barcode">
+                    <svg id="barcode"
+                    jsbarcode-format="CODE128"
+                    jsbarcode-value="7777777"
+                    jsbarcode-textmargin="0"
+                    jsbarcode-height="18rem"
+                    jsbarcode-fontSize="12"
+                    jsbarcode-width="2"
+                    jsbarcode-margin="0"></svg>
+                </div>
+            </div>
+        </div>
+        <!-- //////////////////////////////// -->
+        <!-- Table -->
+        <!-- //////////////////////////////// -->
+        <table class="table table-modif mt-0 mb-0">
+            <tr>
+                <th>Customer Name</th>
+                <td>WALSIN</td>
+                <td colspan="4" class="border-0">&nbsp;</td>
+            </tr>
+            <tr>
+                <th>Product Name</th>
+                <td>ECT-C234-A</td>
+                <th>Product Code</th>
+                <td>100091</td>
+                <th>Date of Sending</th>
+                <td>2017-09-11</td>
+            </tr>
+            <tr>
+                <th>Lot No</th>
+                <td>ECT-C234-A</td>
+                <th>Proc ControlNo</th>
+                <td>100091</td>
+                <th>Customer</th>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="6" class="border-l-0 border-r-0">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="6" class="text-left">More information
+                    <br /><br /><br /><br /><br /><br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" class="border-l-0 border-r-0 border-b-0">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <table class="table table-modif mt-0">
+                        <tr>
+                            <th>Rank</th>
+                            <th>Q'ty</th>
+                        </tr>
+                        <tr>
+                            <td>F-115B</td>
+                            <td>1,400</td>
+                        </tr>
+                        <tr>
+                            <td>F-116B</td>
+                            <td>2,100</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    <table class="table table-modif mt-0">
+                        <tr>
+                            <th>Rank</th>
+                            <th>Q'ty</th>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    <table class="table table-modif mt-0">
+                        <tr>
+                            <th>Rank</th>
+                            <th>Q'ty</th>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    <table class="table table-modif mt-0">
+                        <tr>
+                            <th>Rank</th>
+                            <th>Q'ty</th>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <th>TOTAL</th>
+                            <td>3,5000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/JsBarcode/dist/JsBarcode.all.min.js"></script>
+    <script>
+    // Barcode
+    JsBarcode("#barcode").init();
+    </script>
+</body>
+</html>

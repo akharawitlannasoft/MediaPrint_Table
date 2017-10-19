@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <!-- How to build -->
+    <!-- wkhtmltopdf.exe -s A4 -O Landscape <input file> "<output file>" -->
+    <!-- /////////////// -->
+    <div class="container">
+        <div class="row">
+            <table class="table table-modif table-modif-nm" style="width: 50%">
+                <tr>
+                    <td colspan="5"><h5>ใบกำกับผลิตภัณฑ์</h5></td>
+                </tr>
+                <tr>
+                    <td colspan="5">ชื่อผลิตภัณฑ์ <br />Product Name</td>
+                </tr>
+                <tr>
+                    <td colspan="5">หมายเลขล็อต <br />Lot No.</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="border-r-0">จำนวนพั้น <br />Q'ty Puhching</td>
+                    <td class="border-l-0 border-r-0">ม้วนที่ <br />Winding</td>
+                    <td class="border-l-0">ชื่อผู้พั้น <br />Name</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="border-r-0">จำนวนปัดฝุ่น <br />Q'ty Remove</td>
+                    <td class="border-l-0 border-r-0">กล่องที่ <br />Winding</td>
+                    <td class="border-l-0">ชื่อผู้ปัดฝุ่น <br />Name</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
